@@ -1,7 +1,7 @@
 var array = [];
 
 for (var i = 0; i < 5; i++) {
-    array[i] = Number(prompt('Please input number'));
+    array[i] = Number(prompt('Please input ' + (i + 1) + ' number'));
 }
 
 function getMax() {
